@@ -220,7 +220,7 @@ section header {
     overflow: scroll;
 }
 
-.top-rekomendasi::-webkit-scrollbar, .review-users::-webkit-scrollbar {
+.top-rekomendasi::-webkit-scrollbar, .review-users::-webkit-scrollbar, .review-users::-webkit-scrollbar {
     display: none;
 }
 
@@ -304,7 +304,7 @@ header h2{
     height: 22vh;
     min-height: 200px;
     max-height: 250px;
-    overflow-y: scroll;
+    overflow: scroll;
     font-size: clamp(10px, 2vw, 15px);
     
 
