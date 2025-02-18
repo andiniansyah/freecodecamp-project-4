@@ -36,7 +36,7 @@ html {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     height: 65px;
     padding: 0 50px;
     background-color: #00487c;
@@ -301,9 +301,11 @@ header h2{
     background-color: #f1f2f6;
     color: #000814;
     min-height: 160px;
-    height: 30vw;
-    max-height: 200px;
+    height: 22vh;
+    min-height: 200px;
+    max-height: 250px;
     overflow-y: scroll;
+    font-size: clamp(10px, 2vw, 15px);
     
 
 }
@@ -544,7 +546,7 @@ iframe {
     }
 
     #header-img {
-        height: 50px;
+        max-height: 50px;
     }
 
     .main-header {
