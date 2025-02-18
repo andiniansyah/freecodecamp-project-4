@@ -298,6 +298,8 @@ header h2{
     border-radius: 10px;
     background-color: #f1f2f6;
     color: #000814;
+    height: 22vw;
+    max-height: 200px;
 
 }
 
@@ -322,7 +324,7 @@ header h2{
 }
 
 article {
-    padding: 0 5vw;
+    padding: 0 10vw;
 }
 
 article h3 {
@@ -333,7 +335,6 @@ article h3 {
 article p {
     text-align: justify;
     padding-bottom: 10px;
-    font-size: clamp(14px, 2vw, 18px);
     font-family: sans-serif;
 }
 
@@ -403,7 +404,7 @@ article p {
 
 table {
     width: 80%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     border-top: 10px double #000814;
     border-collapse: collapse;
     background-color: #efe9f4;
