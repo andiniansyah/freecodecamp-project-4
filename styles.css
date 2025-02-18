@@ -253,13 +253,15 @@ header h2{
 
 .description-movies {
     width: 100%;
-    font-size: clamp(10px, 2vw, 11.5px);
+    font-size: clamp(10px, 2vw, 11px);
     text-align: left;
     background-color: #efe9f4;
     padding: 5px 10px 15px 10px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 80px;
+    
+    
 }
 
 .description-movies p{
@@ -300,7 +302,7 @@ header h2{
     color: #000814;
     min-height: 160px;
     height: 30vw;
-    max-height: 300px;
+    max-height: 200px;
     overflow-y: scroll;
     
 
